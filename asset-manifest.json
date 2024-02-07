@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/freeshoutcast-test/static/css/main.c7f73d85.css",
+    "main.js": "/freeshoutcast-test/static/js/main.3523bbfa.js",
+    "static/media/video.mp4": "/freeshoutcast-test/static/media/video.f57b398beb5147453128.mp4",
+    "static/media/logo.png": "/freeshoutcast-test/static/media/logo.6cd760b0e86208aa88b7.png",
+    "static/media/monitor.svg": "/freeshoutcast-test/static/media/monitor.e1c8a603fd2619eab9f2788b4ee2e3d4.svg",
+    "static/media/micro.svg": "/freeshoutcast-test/static/media/micro.30d79aec3765b0d95add3c29a8bdf0a8.svg",
+    "static/media/support.svg": "/freeshoutcast-test/static/media/support.82aeefc1b82d527d3d4ecbcb583433c9.svg",
+    "static/media/spaceShipsvg.svg": "/freeshoutcast-test/static/media/spaceShipsvg.6fb9cba253cc0f3bd71f883cf4e649df.svg",
+    "static/media/screen.svg": "/freeshoutcast-test/static/media/screen.9825d11de6c64740171f91d1928e69e6.svg",
+    "static/media/transfer.svg": "/freeshoutcast-test/static/media/transfer.0162eda0aeca29ccd2eb3b4e2f81c3d0.svg",
+    "index.html": "/freeshoutcast-test/index.html",
+    "main.c7f73d85.css.map": "/freeshoutcast-test/static/css/main.c7f73d85.css.map",
+    "main.3523bbfa.js.map": "/freeshoutcast-test/static/js/main.3523bbfa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7f73d85.css",
+    "static/js/main.3523bbfa.js"
+  ]
+}
