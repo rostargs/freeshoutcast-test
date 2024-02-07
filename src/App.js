@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// Router
+import { Route, Routes } from "react-router-dom";
+// Layouts
+import AppLayout from "./layouts/AppLayout";
+// React
+import { createContext } from "react";
+// MUI
+import { CssBaseline, ThemeProvider } from "@mui/material";
+// Hooks
+import { useToggleColorMode } from "./hooks/useToggleColorMode";
+import Home from "./pages/Home";
+
+export const ThemeContext = createContext({ toggleThemeContext: () => {} });
 
 function App() {
+  const { theme, colorMode } = useToggleColorMode();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeContext.Provider value={colorMode}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Routes>
+          <Route path="/" element={<AppLayout />}>
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
+      </ThemeProvider>
+    </ThemeContext.Provider>
   );
 }
 
